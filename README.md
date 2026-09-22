@@ -22,10 +22,10 @@ Language- language is a set of strings over an alphabet.
 If
   Σ={0,1}
 then:
-  Σ raise to0={ϵ}
-  Σ raise to 1={a,b}
-  Σ raise to 2={aa,ab,ba,bb}
-  Σ raise to 2={aaa,aab,aba,abb,bbb,bab,baa,bba}
+  Σ^0={ϵ}
+  Σ^1={a,b}
+  Σ^2={aa,ab,ba,bb}
+  Σ^3={aaa,aab,aba,abb,bbb,bab,baa,bba}
 
 So Σ∗ contains all possible finite strings, including ϵ (epsilon).
 
