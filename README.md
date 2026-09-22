@@ -1,6 +1,6 @@
-Alphabet
+Theory of Computation
 --------
-An alphabet is a finite, non-empty set of symbols.
+Alphabet - An alphabet is a finite, non-empty set of symbols.
 Example:
   Σ ={0,1}
   Here 0 and 1 are symbols.
