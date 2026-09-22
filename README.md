@@ -32,4 +32,6 @@ So Σ∗ contains all possible finite strings, including ϵ (epsilon).
   For an alphabet containing n symbols:
           ∣Σ^k∣=n^k
 
+For an alphabet of size n, number of strings of length at most k:
+                  1+n+n^2+⋯+n^k
 
