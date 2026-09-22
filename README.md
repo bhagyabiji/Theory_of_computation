@@ -15,7 +15,21 @@ for eg:-  Σ ={0,1}
 
 Empty string - The empty string contains no symbols. It is represented by: ϵ
 
+Language- language is a set of strings over an alphabet.
+  For example: Σ={0,1}
+     L = {0, 01, 101, 111}
 
+If
+  Σ={0,1}
+then:
+  Σ raise to0={ϵ}
+  Σ raise to 1={a,b}
+  Σ raise to 2={aa,ab,ba,bb}
+  Σ raise to 2={aaa,aab,aba,abb,bbb,bab,baa,bba}
 
+So Σ∗ contains all possible finite strings, including ϵ (epsilon).
+
+  For an alphabet containing n symbols:
+          ∣Σ^k∣=n^k
 
 
