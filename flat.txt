@@ -1,0 +1,7 @@
+
+Alphabet - is a finite, non empty set of symbols
+    eg:- Σ={0,1}
+      0, 1 - symbols 
+
+
+
