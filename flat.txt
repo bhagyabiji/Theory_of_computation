@@ -3,5 +3,20 @@ Alphabet - is a finite, non empty set of symbols
     eg:- Σ={0,1}
       0, 1 - symbols 
 
+REGULAR LANGUAGES
+------------------
 
+1. Every finite set represents a regular language.
+    eg:- All strings of length = 2 over {a, b}* i.e. L = {aa, ab, ba, bb} is regular
 
+2. Given an expression of non-regular language, but the value of parameter is bounded by some constant, then the language is regular
+    eg:- L = { a^n b^n | n <= 10^1010} is regular, because it is upper bounded and thus a finite language.
+
+3.  pattern of strings form an A.P.(Arithmetic Progression) is regular, Geometric Progression is not regular
+    eg:- L = { a^n | n>=2 } is regular. Clearly, it forms an A.P., so we can draw a finite automaton with 3 states
+
+    L = { a2^n | n>=1 } is not regular. It forms a G.P.
+
+4. No pattern is present, that could be repeated to generate all the strings in language is not regular. Finding prime itself is not possible with FA. 
+    Eg:- L = { a^p  | p is prime. } is not regular. 
+  
