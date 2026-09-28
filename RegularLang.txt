@@ -1,0 +1,16 @@
+REGULAR LANGUAGES
+-----------------
+- language of DFA is Regular language
+    Grammar
+    ------
+    G = (V, T, P, S)
+    where,
+      V - Non-terminals like A, B,C...
+      T - terminals like a, c,d,...
+      P - production rules 
+      S- start symbol
+
+      for eg:-
+         S -> aSbS
+         S -> bSaS
+         S -> E(epsilon)
